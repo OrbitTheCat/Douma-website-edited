@@ -1,0 +1,220 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/889835474913484864/959415011732762634/AD7737DF-DC47-4686-96C5-F8A39D4A1862.jpg);  
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden; */
+}
+.home {
+    width: 180px;
+    height: 50px;
+    color:black;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 1cm;
+    left: 1cm;
+    border: none;
+    transition: ease-out 0.3s;
+    z-index: 1;
+}
+.home:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+.home:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: black;
+}
+.home:hover:before {
+    transition: 0.6s all ease;
+    left: 0;
+    right: 0;
+    opacity: 2;
+    z-index: -1;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color:black;
+    border-radius: 10px;
+    position: relative;
+    top: -7cm;
+    left: -1cm;
+    font-family:'Times New Roman', Times, serif
+}
+#douma {
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    size: 100px;
+    position: relative;
+    top: -5cm;
+    background-color: rgb(21, 255, 247);
+    border-radius: 30px;
+}
+#block-2 {
+    width: 1380px;
+    height: 100px;
+    color: rgb(86, 255, 241);
+    background-color: rgb(86, 255, 241);
+    position: relative;
+    top: -1cm;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+h3 {
+    position: relative;
+    top: -30cm;
+    right: -5.7cm;
+    font-size: 60px;
+    font-family:cursive;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: -37.8cm;
+    left: -6.4cm;
+    border-radius: 20px;
+}
+
+p2 {
+    font-size: 25px;
+    position: relative;
+    top: -39cm;
+    left: 5.1cm;
+    color:rgb(36, 179, 174)
+
+}
+p {
+    font-size: 30px;
+    position: relative;
+    top: -29cm;
+    left: 0.6cm;
+}
+.rules-btn {
+    width: 180px;
+  height: 50px;
+  color:black;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  position: relative;
+  top: -13.7cm;
+  left: -9.5cm;
+  border: none;
+  transition: ease-out 0.3s;
+  z-index: 1;
+}
+.rules-btn:hover {
+    color:whitesmoke;
+    cursor: pointer;
+}
+.rules-btn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: black;
+}
+.rules-btn:hover:before {
+    transition: 0.6s all ease;
+    opacity: 2;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.invite-button {
+    width: 180px;
+    height: 50px;
+    color:black;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: -10cm;
+    border: none;
+    transition: ease-out 0.3s;
+    z-index: 1; 
+    position: relative;
+    left: 25cm;
+    top: -3cm;
+}
+.invite-button:hover {
+    color:whitesmoke;
+    cursor: pointer;
+}
+.invite-button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: black;
+}
+.invite-button:hover:before {
+    transition: 0.6s all ease;
+    opacity: 2;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+#huzi {
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    size: 100px;
+    position: relative;
+    top: -17cm;
+    left: 13cm;
+    background-color: rgb(21, 255, 247);
+    border-radius: 30px;
+}
+
+.ocelot-header {
+    position: relative;
+    top: -43cm;
+    right: -18cm;
+    font-size: 50px;
+    font-family:cursive;
+}
+.huzi-description {
+    font-size: 30px;
+    position: relative;
+    top: -42cm;
+    left: 13.8cm;
+}
+.ocelot-pic {
+    position: relative;
+    left: 2cm;
+}
+.admin {
+    position: relative;
+    top: -47cm;
+    left: 19cm;
+    color: rgb(36, 179, 174)
+}

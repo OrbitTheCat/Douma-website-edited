@@ -1,0 +1,171 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/889835474913484864/959415011732762634/AD7737DF-DC47-4686-96C5-F8A39D4A1862.jpg);  
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+nav-bar {
+  font-size: 150px;
+}
+img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 5px;
+  top: -10cm;
+  bottom: 10cm;
+} 
+h1 {
+  text-align: center;
+  font-size: 150px;
+  color:black;
+  border-radius: 10px;
+  position: relative;
+  top: -2cm;
+  left: 0.5cm;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p.info-text{
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -2cm;
+  left: auto;
+  right: auto;
+}
+
+.button {
+  width: 180px;
+  height: 50px;
+  color:black;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  position: relative;
+  top: -13.7cm;
+  left: -9.5cm;
+  border: none;
+  transition: ease-out 0.3s;
+  z-index: 1;
+}
+
+.button:hover {
+  color:whitesmoke;
+  cursor:pointer;
+}
+
+.button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: black;
+}
+
+.button:hover:before {
+  transition: 0.6s all ease;
+  left: 0;
+  right: 0;
+  opacity: 2;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+#block {
+  width: auto;
+  height: 100px;
+  color: rgb(86, 255, 241);
+  background-color: rgb(86, 255, 241);
+  top: 10cm;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.staff-button {
+  width: 180px;
+  height: 50px;
+  color:black;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  position: relative;
+  top: -13.7cm;
+  left: -9.4cm;
+  border: none;
+  transition: ease-out 0.3s;
+  z-index: 1;
+}
+
+.staff-button:hover {
+  color:whitesmoke;
+  cursor:pointer;
+}
+
+.staff-button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: black;
+}
+
+.staff-button:hover:before {
+  transition: 0.6s all ease;
+  left: 0;
+  right: 0;
+  opacity: 2;
+  z-index: -1;
+  border-radius: 20px;
+}
+.rules-button {
+  width: 180px;
+  height: 50px;
+  color:black;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  position: relative;
+  top: -13.7cm;
+  left: -9.5cm;
+  border: none;
+  transition: ease-out 0.3s;
+  z-index: 1;
+}
+.rules-button:hover {
+  color:whitesmoke;
+  cursor:pointer;
+}
+
+.rules-button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: black;
+}
+
+.rules-button:hover:before {
+  transition: 0.6s all ease;
+  left: 0;
+  right: 0;
+  opacity: 2;
+  z-index: -1;
+  border-radius: 20px;
+}
